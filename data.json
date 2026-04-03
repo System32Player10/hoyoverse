@@ -1,0 +1,75 @@
+{
+    "characterList": [
+        {
+            "id": 1,
+            "pronounce": ["Dan Heng", null],
+            "quote": "Even as we speak, farewells are happening throughout the universe. The grief that we share is real, but there's nothing special about it.",
+            "array": [1, 4, 2],
+            "offset": [0, 0]
+        },
+        {
+            "id": 2,
+            "pronounce": "March 7th",
+            "quote": "Well would you listen to that! I saved everyone without causing any trouble! You're pretty awesome, March 7th!",
+            "path": {
+                "preservation": {
+                    "array": [5, 2, 2],
+                    "offset": [0, 0]
+                },
+                "the_hunt": {
+                    "array": [1, 6, 2],
+                    "offset": [0, 0]
+                }
+            }
+        },
+        {
+            "id": 3,
+            "pronounce": ["Himeko", "Starward Explorer"],
+            "quote": "Alright, crew! This world is the target of our next trailblazing expedition!",
+            "array": [2, 1, 2],
+            "offset": [0, 0]
+        },
+        {
+            "id": 4,
+            "pronounce": ["Trailblazer", "Galactic Baseballer"],
+            "quote": "Rules... are meant to be broken!",
+            "array": [0, 0, 2],
+            "offset": [0, 0]
+        },
+        {
+            "id": 5,
+            "pronounce": ["Welt", "In the Name of the World"],
+            "quote": "The future... will be forged by our own hands.",
+            "array": [4, 6, 2],
+            "offset": [0, 0]
+        },
+        {
+            "id": 6, 
+            "pronounce": ["Blade", null], 
+            "quote": "When will death come for me? My patience is wearing thin.",
+            "array": [1, 4, 1], 
+            "offset": [0, -90]
+        },
+        {
+            "id": 7, 
+            "pronounce": ["Firefly", "Molten Knight"], 
+            "quote": "Fyreflies are such magical creatures, aren't they? They may throw themselves at a flame or suddenly grow old, but every night before that, they will shine brighter than the stars.",
+            "array": [0, 1, 1],
+            "offset": [0, 0]
+        },
+        {
+            "id": 8, 
+            "pronounce": ["Kafka", null], 
+            "quote": "You won't remember a thing except me.",
+            "array": [4, 3, 1],
+            "offset": [0, 0]
+        },
+        {
+            "id": 9, 
+            "pronounce": ["Silver Wolf", "[@Banned_Player]"], 
+            "quote": "Can you let me have some fun this time?",
+            "array": [4, 5, 3],
+            "offset": [0, 0]
+        }
+    ]
+}

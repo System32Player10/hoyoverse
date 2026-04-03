@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" gamecode="hsr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./fetch.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="full-width navbar">
+        <nav>
+            <img src="./resources/Logo_HonkaiStarRail.webp" alt="Game Logo" id="logo">
+            <div id="separator"></div>
+            <div id="related-contents">
+                <a class="related-content" id="content" href="?characterId=2">Silver Wolf</a>
+                <a class="related-content" href="?characterId=1">Kafka</a>
+                <a class="related-content" href="?characterId=3">Blade</a>
+                <a class="related-content" href="?characterId=4">Firefly</a>
+                <a class="related-content" href="?characterId=5">The Herta</a>
+            </div>
+            <div id="right-aligned">
+                <input type="text" id="searchbox" placeholder="Search">
+                <i class="fas fa-search icon" id="icon"></i>
+                <a id="empty" hidden><i class="fas fa-xmark"></i></a>
+            </div>
+            <!--<select id="2" class="faction-dropdowns" name="StellaronHunters">
+                <option value="0">Kafka</option>
+                <option value="1">Silver Wolf</option>
+                <option value="2">Blade</option>
+                <option value="3">Firefly</option>
+            </select>-->
+        </nav>
+    </header>
+    <section class="full-width introduction" id="namecard">
+        <div id="bgImg">
+            <div class="imgDiv" id="blur"></div>
+            <div class="imgDiv" id="real"></div>
+        </div>
+        <div id="info">
+            <h3 id="name">
+                <span id="name">PLACEHOLDER</span>
+                <span id="burst">PLACEHOLDER</span>
+            </h3>
+            <h6 id="quote"></h6>
+            <h6 id="additional">
+                <span class="otherinfo" id="combat-path"></span>
+                <span class="otherinfo" id="combat-type"></span>
+            </h6>
+            <h6 id="faction">Part of <span class="otherinfo" id="faction-name">Stellaron Hunters</span></h6>
+            <button id="continue">Learn More</button>
+        </div>
+    </section>
+    <section class="full-width description">
+        
+    </section>
+    <div id="screencover">
+        <p id="sadface" hidden>:(</p>
+        <p id="error">Please wait</p>
+    </div>
+</body>
+</html>

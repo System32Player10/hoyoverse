@@ -1,0 +1,291 @@
+:root {
+    --bgcolor1: #1b1d2a;
+    --linecolor1: #050507;
+    --bgcolor2: #2a2a34;
+    --linecolor2: #494953;
+    --fontcolor1: #ffffff;
+    --fontcolor2: #000000;
+}
+
+body { 
+    margin: 0; 
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Bahnschrift', 'Segoe UI';
+    background-color: black;
+}
+
+.full-width { width: 100vw; }
+
+header.navbar {
+    position: fixed;
+    height: 50px;
+    padding: 10px;
+    background-color: var(--bgcolor1);
+    border-bottom: 2px solid var(--linecolor1);
+    color: white;
+    z-index: 999;
+
+    & nav {
+        font-family: 'Segoe UI';
+        height: 100%;
+        display: flex;
+        align-items: center;
+
+        & select {
+            width: fit-content;
+            font-size: 18px;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            color: var(--fontcolor1);
+            padding: 0px 20px 0px 10px;
+
+            & option {
+                color: var(--fontcolor2);
+            }
+        }
+
+        & img#logo { 
+            margin: 0px 10px; 
+            max-width: 120px;
+        }
+
+        & div#separator {
+            width: 2px;
+            height: 60%;
+            background-color: white;
+            margin-right: 15px;
+        }
+
+        & div#related-contents {
+            
+            & a:first-child {
+                font-size: 24px;
+                text-decoration: none;
+                color: white;
+                margin-right: 10px;
+                font-weight: 600;
+            }
+
+            & a:not(:first-child) {
+                position: relative;
+                bottom: 2px;
+                font-size: 18px;
+                text-decoration: none;
+                color: white;
+                margin: 0 10px;
+            }
+        }
+
+        & div#right-aligned {
+            position: absolute;
+            right: 3vw;
+
+            & input#searchbox {
+                padding: 10px 40px 7.5px 40px;
+                width: 15vw;
+                font-size: 16px;
+                background-color: var(--bgcolor2);
+                border: 2px solid var(--linecolor2);
+                outline: none;
+                color: white;
+
+                &::placeholder { color: white; }
+            }
+            
+            & i#icon, a#empty {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                color: white;
+            }
+
+            & i#icon { right: 18.5vw; }
+            & a#empty { 
+                right: 1vw;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+section.introduction {
+    position: relative;
+    display: flex;
+    height: 100vh;
+
+    & div#bgImg {
+        z-index: 0;
+
+        & div.imgDiv {
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            position: absolute;
+        }
+        & div#blur {
+            filter: blur(5px);
+            background-size: 130vw auto;
+            background-position: -25vw -65vh;
+            height: 100vh;
+
+            &::after {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(to right, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.6) 40%, rgba(0, 0, 0, 0.4) 70%, transparent 100%)
+            }
+        }
+
+        & div#real {
+            height: 100vh;
+            background-size: 100vw auto;
+            background-position: 17.5vw clamp(-38vh, -42.5vh, -45vh);
+            transform: translateX(50px);
+            opacity: 0;
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        & div#real.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    & div#info {
+        display: flex;
+        flex-direction: column;
+        padding: 27.5vh 6vw;
+        z-index: 2;
+
+        & h3, h6 { 
+            max-width: 800px;
+            text-wrap: wrap;
+            color: white;
+            margin: 10px 0;
+            text-shadow: 5px 5px 0 black;
+        }
+
+        & h3#name {
+            font-size: clamp(40px, 5.5vw, 96px);
+            font-weight: 700;
+            line-height: 1.1;
+            margin: 0;
+            letter-spacing: 1px;
+
+            & span#burst {
+                font-family: 'Segoe UI';
+                font-size: clamp(36px, 2.5vw, 54px);
+            }
+
+            &::after {
+                content: "";
+                width: 60px;
+                height: 3px;
+                background: white;
+                opacity: 0.6;
+                margin-top: 10px;
+            }
+        }
+
+        & h6#quote { 
+            font-family: 'Segoe UI';
+            font-size: clamp(18px, 1.75vw, 28px);
+        }
+
+        & h6#additional, h6#faction {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: clamp(14px, 2vw, 28px);
+            opacity: 0.85;
+            letter-spacing: 1px;
+        }
+
+        & h6#additional {
+            margin-top: 40px;
+
+            & span {
+                position: relative;
+            }
+
+            & span:not(:last-child)::after {
+                content: " •";
+                opacity: 0.6;
+            }
+        }
+
+        & h6#faction {
+            margin-top: 10px;
+            opacity: 1.0;
+            color: #d4d4d4;
+
+            & span#faction-name {
+                position: relative;
+                bottom: 0.75vh;
+                font-size: clamp(16px, 2.5vw, 48px);
+                letter-spacing: 1px;
+                transition: 0.2s;
+
+                &:hover {
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+
+        & button#continue {
+            font-family: 'Segoe UI Semibold';
+            margin-top: 20px;
+            width: 12.5vw;
+            height: auto;
+            padding: 5px 30px 7.5px 30px;
+            font-size: clamp(16px, 1.25vw, 24px);
+            background-color: transparent;
+            backdrop-filter: blur(5px);
+            border: 2px solid white;
+            color: white;
+            cursor: pointer;
+        }
+    }
+}
+
+section.description {
+    position: relative;
+    background-color: var(--bgcolor1);
+    border-top: 2px solid var(--linecolor1);
+    color: white;
+    padding: 50px 10vw;
+    font-size: clamp(16px, 1.75vw, 28px);
+    text-wrap: wrap;
+}
+
+div#screencover {
+    position: fixed;
+    inset: 0;
+    background-color: black;
+    z-index: 1000;
+
+    & p#sadface {
+        font-family: 'Segoe UI';
+        width: 100%;
+        font-size: 144px;
+        position: fixed;
+        left: 20vw;
+        color: white;
+    }
+    & p#error {
+        font-family: 'Segoe UI Semibold';
+        width: 60vw;
+        text-wrap: wrap;
+        text-align: center;
+        font-size: 28px;
+        position: fixed;
+        left: 20vw;
+        bottom: 45vh;
+        color: white;
+    }
+}
