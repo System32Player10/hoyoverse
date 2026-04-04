@@ -31,10 +31,31 @@
         },
         {
             "id": 4,
-            "pronounce": ["Trailblazer", "Galactic Baseballer"],
-            "quote": "Rules... are meant to be broken!",
-            "array": [0, 0, 2],
-            "offset": [0, 0]
+            "pronounce": "Trailblazer",
+            "quote": "When there is the chance to make a choice, make one that you know you won't regret...",
+            "path": {
+                "destruction": {
+                    "array": [0, 0, 2],
+                    "offset": [0, 0]
+                },
+                "preservation": {
+                    "array": [5, 1, 2],
+                    "offset": [0, 0]
+                },
+                "harmony": {
+                    "array": [6, 3, 2],
+                    "offset": [0, 0]
+                },
+                "remembrance": {
+                    "array": [7, 2, 2],
+                    "offset": [0, 0]
+                },
+                "elation": {
+                    "array": [8, 3, 2],
+                    "offset": [0, 0]
+                }
+            }
+            
         },
         {
             "id": 5,
@@ -69,6 +90,510 @@
             "pronounce": ["Silver Wolf", "[@Banned_Player]"], 
             "quote": "Can you let me have some fun this time?",
             "array": [4, 5, 3],
+            "offset": [0, 0]
+        },
+        {
+            "id": 10,
+            "pronounce": ["Arlan", null],
+            "quote": "I'm proud of my wounds. They're a reminder of being able to protect everyone.",
+            "array": [0, 3, 4],
+            "offset": [0, 0]
+        },
+        {
+            "id": 11,
+            "pronounce": ["Asta", "Deep Space Observer"],
+            "quote": "The 'tortoise' galaxies are those that slooowly give birth to new stars. The ones that use up their fuel reserves in an instant, are the 'hare' galaxies.",
+            "array": [3, 1, 4],
+            "offset": [0, 0]
+        },
+        {
+            "id": 12,
+            "pronounce": ["Herta", "Number 83 of the Genius Society"],
+            "quote": "I'm already perfect, so what else should I do?",
+            "array": [2, 2, 4],
+            "offset": [0, 0]
+        },
+        {
+            "id": 13,
+            "pronounce": ["Ruan Mei", "Genius Society #81"],
+            "quote": "Without accelerating or postponing the arrival of death, life will always wither.",
+            "array": [3, 2, 4],
+            "offset": [0, 0]
+        },
+        {
+            "id": 14,
+            "pronounce": ["The Herta", "Genius Society #83"],
+            "quote": "The writers from the Intelligentsia Guild wanted to give me an extra title. Something like 'Herta Prime' to separate me from my puppets. How banal. Are the puppets not 'me' as well? So, I gave them a suggestion — if they dared to write that, then I would call myself THE Herta. It's short, simple, straight to the point, and elegant.",
+            "array": [2, 5, 4],
+            "offset": [0, 0]
+        },
+        {
+            "id": 15,
+            "pronounce": ["Hook", "Pitch-Dark Hook the Great"],
+            "quote": "Who am I? Heh, I'm the boss around here, you can call me... Pitch-Dark Hook the Great!",
+            "array": [0, 1, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 16,
+            "pronounce": ["Luka", null],
+            "quote": "Tell you a secret — the trick to becoming a champion is training hard while everyone is resting.",
+            "array": [4, 0, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 17,
+            "pronounce": ["Lynx", null],
+            "quote": "In the Landau family, things are simple: If you wanna do something, go do it.",
+            "array": [6, 5, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 18,
+            "pronounce": ["Natasha", null],
+            "quote": "Where's a doctor when you need one?",
+            "array": [6, 0, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 19,
+            "pronounce": ["Pela", null],
+            "quote": "Net markers activated — time for a good old counterattack.",
+            "array": [4, 2, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 20,
+            "pronounce": ["Sampo", "Mr. Cold Feet"],
+            "quote": "All sorts of business are welcome — as long as you've got the cash.",
+            "array": [4, 4, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 21,
+            "pronounce": ["Serval", null],
+            "quote": "How can a rock star not have that kind of confidence?",
+            "array": [2, 3, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 22,
+            "pronounce": ["Bronya", null],
+            "quote": "This place is always part of our homeland, even when it has been corroded by Fragmentum. Silvermane Guards will never turn their backs on their home.",
+            "array": [3, 4, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 23,
+            "pronounce": ["Clara", "Bloody Rabbit"],
+            "quote": "Mr. Svarog... is my family.",
+            "array": [0, 0, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 24,
+            "pronounce": ["Gepard", "Stout Defender of the Union"],
+            "quote": "Loyalty isn't an inherent virtue of humans. As such, the recipient of that loyalty also needs to be worthy.",
+            "array": [5, 2, 5],
+            "offset": [0, 0]
+        },
+        {
+            "id": 25,
+            "pronounce": ["Seele", null],
+            "quote": "To use our strength to create a fair society... Isn't that the obvious goal?",
+            "array": [1, 5, 5],
+            "offset": [0, 0]
+        },
+                {
+            "id": 26,
+            "pronounce": ["Guinaifen", null],
+            "quote": "Watch closely! This is the art of performance!",
+            "array": [4, 1, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 27,
+            "pronounce": ["Hanya", null],
+            "quote": "All sins shall be judged.",
+            "array": [3, 0, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 28,
+            "pronounce": ["Moze", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 29,
+            "pronounce": ["Qingque", null],
+            "quote": "Eh? Work? Maybe later...",
+            "array": [2, 5, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 30,
+            "pronounce": ["Sushang", null],
+            "quote": "Cloud Knights never back down!",
+            "array": [1, 0, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 31,
+            "pronounce": ["Tingyun", null],
+            "quote": "May fortune always favor you.",
+            "array": [3, 3, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 32,
+            "pronounce": ["Xueyi", null],
+            "quote": "The law does not tolerate exceptions.",
+            "array": [4, 5, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 33,
+            "pronounce": ["Yukong", null],
+            "quote": "We must guide the future with steady hands.",
+            "array": [3, 4, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 34,
+            "pronounce": ["Bailu", null],
+            "quote": "Hehe, don't worry — I'll fix you right up!",
+            "array": [6, 3, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 35,
+            "pronounce": ["Dan Heng • Imbibitor Lunae", null],
+            "quote": "I accept my past.",
+            "array": [0, 6, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 36,
+            "pronounce": ["Feixiao", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 37,
+            "pronounce": ["Fu Xuan", null],
+            "quote": "All things unfold as foreseen.",
+            "array": [5, 5, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 38,
+            "pronounce": ["Fugue", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 39,
+            "pronounce": ["Huohuo", null],
+            "quote": "P-please don't leave me alone!",
+            "array": [6, 4, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 40,
+            "pronounce": ["Jiaoqiu", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 41,
+            "pronounce": ["Jing Yuan", null],
+            "quote": "The battlefield is but a game of strategy.",
+            "array": [2, 3, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 42,
+            "pronounce": ["Jingliu", null],
+            "quote": "Let the cold blade decide your fate.",
+            "array": [0, 2, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 43,
+            "pronounce": ["Lingsha", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 44,
+            "pronounce": ["Luocha", null],
+            "quote": "Life and death are but two sides of the same coin.",
+            "array": [6, 6, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 45,
+            "pronounce": ["Yanqing", null],
+            "quote": "My sword will not falter.",
+            "array": [1, 2, 6],
+            "offset": [0, 0]
+        },
+        {
+            "id": 46,
+            "pronounce": ["Yao Guang", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 47,
+            "pronounce": ["Yunli", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 48,
+            "pronounce": ["Gallagher", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 49,
+            "pronounce": ["Misha", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 50,
+            "pronounce": ["Robin", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 51,
+            "pronounce": ["Aventurine", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 52,
+            "pronounce": ["Jade", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 53,
+            "pronounce": ["Topaz & Numby", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 54,
+            "pronounce": ["Acheron", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 55,
+            "pronounce": ["Argenti", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 56,
+            "pronounce": ["Black Swan", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 57,
+            "pronounce": ["Boothill", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 58,
+            "pronounce": ["Dr. Ratio", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 59,
+            "pronounce": ["Rappa", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 60,
+            "pronounce": ["Sparkle", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 61,
+            "pronounce": ["Sunday", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 62,
+            "pronounce": ["The Dahlia", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 63,
+            "pronounce": ["Aglaea", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 64,
+            "pronounce": ["Anaxa", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 65,
+            "pronounce": ["Castorice", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 66,
+            "pronounce": ["Cerydra", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 67,
+            "pronounce": ["Cipher", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 68,
+            "pronounce": ["Cyrene", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 69,
+            "pronounce": ["Dan Heng • Permansor Terrae", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 70,
+            "pronounce": ["Evernight", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 71,
+            "pronounce": ["Hyacine", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 72,
+            "pronounce": ["Hysilens", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 73,
+            "pronounce": ["Mydei", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 74,
+            "pronounce": ["Phainon", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 75,
+            "pronounce": ["Tribbie", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 76,
+            "pronounce": ["Ashveil", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 77,
+            "pronounce": ["Sparxie", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 1001,
+            "pronounce": ["Archer", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 1002,
+            "pronounce": ["Saber", null],
+            "quote": null,
+            "array": null,
+            "offset": [0, 0]
+        },
+        {
+            "id": 2001,
+            "pronounce": ["Evanescia", null],
+            "quote": "A cutter adjudicates right and wrong, but who can say how much good or evil lies within oneself?",
+            "array": [8, 0, 0],
+            "offset": [0, 0]
+        },
+        {
+            "id": 2002,
+            "pronounce": ["Silver Wolf LV.999", null],
+            "quote": "Reach the peak of 'Elation'? Bo-ring... Since I've got the cartridge now, I make the rules~",
+            "array": [8, 6, 0],
             "offset": [0, 0]
         }
     ]

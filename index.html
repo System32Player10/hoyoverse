@@ -48,15 +48,26 @@
                 <span class="otherinfo" id="combat-type"></span>
             </h6>
             <h6 id="faction">Part of <span class="otherinfo" id="faction-name">Stellaron Hunters</span></h6>
-            <button id="continue">Learn More</button>
+            <button class="skinned" id="continue">Learn More</button>
         </div>
     </section>
     <section class="full-width description">
         
     </section>
     <div id="screencover">
-        <p id="sadface" hidden>:(</p>
+        <p id="sadface" hidden></p>
         <p id="error">Please wait</p>
+        <div id="options-button" hidden>
+            <select class="skinned" id="path">
+                <option value="preservation">Preservation</option>
+                <option value="the_hunt">The Hunt</option>
+            </select>
+            <select class="skinned" id="variant">
+                <option value="stelle">Stelle</option>
+                <option value="caelus">Caelus</option>
+            </select>
+            <button class="skinned" type="submit" id="submit">Continue</button>
+        </div>
     </div>
 </body>
 </html>
