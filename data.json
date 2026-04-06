@@ -83,15 +83,36 @@
             "pronounce": ["Kafka", null], 
             "quote": "You won't remember a thing except me.",
             "array": [4, 3, 1],
-            "offset": [0, 0]
+            "offset": [0, 0],
+            "companion_mission": {
+                "title": "Letter from a Strange Woman",
+                "chapter": 0,
+                "requirements": [2, "A Dragon Gallant, Its Ocean Distant"],
+                "rewards": [
+                    [2, 300], [1, 100], [3, 6], [5, 6], [6, 6], [7, "Hunter's Intution"], [0, 60000]
+                ]
+            }
         },
+
+
         {
             "id": 9, 
             "pronounce": ["Silver Wolf", "[@Banned_Player]"], 
             "quote": "Can you let me have some fun this time?",
             "array": [4, 5, 3],
-            "offset": [0, 0]
+            "offset": [0, 0],
+            "companion_mission": {
+                "title": "Punklorde Mentality",
+                "chapter": 0,
+                "requirements": [1, 21],
+                "rewards": [
+                    [2, 600], [1, 100], [3, 5], [4, 5], [0, 100000]
+                ]
+            }
         },
+
+
+
         {
             "id": 10,
             "pronounce": ["Arlan", null],
@@ -188,7 +209,24 @@
             "pronounce": ["Clara", "Bloody Rabbit"],
             "quote": "Mr. Svarog... is my family.",
             "array": [0, 0, 5],
-            "offset": [0, 0]
+            "offset": [0, 0],
+            "companion_mission": [
+                {
+                    "title": "Rarely Affectionate (I)",
+                    "chapter": 3,
+                    "requirements": [2, "Silent Galaxy"],
+                    "rewards": [
+                        [2, 999]
+                    ]
+                }, {
+                    "title": "Punklorde Mentality",
+                    "chapter": 3,
+                    "requirements": [1, 21],
+                    "rewards": [
+                        [2, 999]
+                    ]
+                }
+            ]
         },
         {
             "id": 24,
@@ -486,9 +524,9 @@
         },
         {
             "id": 66,
-            "pronounce": ["Cerydra", null],
-            "quote": null,
-            "array": null,
+            "pronounce": ["Cerydra", "Chessmaster Monarch"],
+            "quote": "'Flamebearer,' 'Tyrant,' 'Empress,' 'Supreme Commander,' 'Imperator'... The world has given me countless titles, but you may simply call me by my true name — Cerydra.",
+            "array": [3, 4, 10],
             "offset": [0, 0]
         },
         {
@@ -514,9 +552,9 @@
         },
         {
             "id": 70,
-            "pronounce": ["Evernight", null],
-            "quote": null,
-            "array": null,
+            "pronounce": ["Evernight", "Mysterious Foreign Guest"],
+            "quote": "The third month of Amphoreus is the month reserved for the Veil of Evernight... Then let us call this incarnation — the shadow of her — 'Evernight.'",
+            "array": [7, 2, 10],
             "offset": [0, 0]
         },
         {

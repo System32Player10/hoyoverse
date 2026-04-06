@@ -51,23 +51,70 @@
             <button class="skinned" id="continue">Learn More</button>
         </div>
     </section>
-    <section class="full-width description">
+    <section class="full-width description" id="description">
+        
+    </section>
+    <section class="full-width character-story" id="character-story">
+        <h3>Character Details</h3>
+        <div class="flex-column" id="buttons">
+            <button class="story-btn">Character Details</button>
+            <button class="story-btn">Character Story 1</button>
+            <button class="story-btn">Character Story 2</button>
+            <button class="story-btn">Character Story 3</button>
+            <button class="story-btn">Character Story 4</button>
+        </div>
+    </section>
+    <section class="full-width companion-mission" id="companion-mission">
+        <div id="mission-title">
+            <img src="./resources/Badge_CompanionMission.webp" alt="badge" id="badge">
+            <div class="flex-column" id="mission-badge">
+                <span id="chapter"></span>
+                <span id="title"></span>
+            </div>
+        </div>
+        <div id="container">
+            <div class="arranged" id="requirements">
+                <h3 id="req">Requirement</h3>
+                <h6 class="requirement" id="cm-req"></h6>
+            </div>
+            <div class="arranged" id="rewards">
+                <h3>Rewards</h3>
+                <div class="rewards" id="cm-rewards"></div>
+            </div>
+        </div>
+    </section>
+    <section class="full-width build-guide" id="build-guide">
+        
+    </section>
+    <section class="full-width eidolons" id="eidolons">
+        
+    </section>
+    <section class="full-width banners" id="banners">
+        
+    </section>
+    <section class="full-width light-cones" id="light-cones">
         
     </section>
     <div id="screencover">
+        <button id="undo"><i class="fa fa-arrow-left"></i></button>
         <p id="sadface" hidden></p>
         <p id="error">Please wait</p>
         <div id="options-button" hidden>
-            <select class="skinned" id="path">
-                <option value="preservation">Preservation</option>
-                <option value="the_hunt">The Hunt</option>
-            </select>
+            <select class="skinned" id="path"></select>
             <select class="skinned" id="variant">
                 <option value="stelle">Stelle</option>
                 <option value="caelus">Caelus</option>
             </select>
             <button class="skinned" type="submit" id="submit">Continue</button>
         </div>
+        <p class="debuginfo left">
+            Version 1.0b1 (SAFE MODE)<br>
+            Last updated: Sunday, April 5th 2024, 09:45:11 (UTC+7)<br>
+            Game version (Microsoft Windows): OSPRODWin4.1.0_D14554655_A14553814_L14519506
+        </p>
+        <p class="debuginfo right">
+            Press F8 to exit safe mode.
+        </p>
     </div>
 </body>
 </html>

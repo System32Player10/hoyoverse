@@ -5,6 +5,11 @@
     --linecolor2: #494953;
     --fontcolor1: #ffffff;
     --fontcolor2: #000000;
+
+    --3star: #4b72b0;
+    --4star: #9368c4;
+    --5star: #c0a57b;
+    --gray: #212121;
 }
 
 body { 
@@ -103,7 +108,6 @@ header.navbar {
         }
 
         & div#related-contents {
-            
             & a:first-child {
                 font-size: 24px;
                 text-decoration: none;
@@ -154,6 +158,10 @@ header.navbar {
             }
         }
     }
+}
+
+section {
+    border-bottom: 5px solid var(--linecolor2);
 }
 
 section.introduction {
@@ -284,23 +292,178 @@ section.introduction {
 }
 
 section.description {
-    position: relative;
-    background-color: var(--bgcolor1);
+    height: 80vh;   
+}
+
+section.character-story {
+    height: 80vh;
+}
+
+section.build-guide {
+    height: 80vh;
+}
+
+section.eidolons {
+    height: 80vh;
+}
+
+section.banners {
+    height: 80vh;
+}
+
+section.light-cones {
+    height: 80vh;
+}
+
+div.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+section.companion-mission {
+    height: 300px;
+    /* background: linear-gradient(90deg, transparent 0%, #2c272bb2 20%, #2c272b 35%); */
+    background-size: contain;
+    background-repeat: no-repeat;
     border-top: 2px solid var(--linecolor1);
     color: white;
-    padding: 50px 10vw;
+    padding: 25px 50px 25px 40vw;
     font-size: clamp(16px, 1.75vw, 28px);
-    text-wrap: wrap;
+
+    h3, h6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    div { margin-bottom: 10px; }
+
+    & div#container{
+        position: relative;
+        min-height: 72%;
+        width: 48.5vw;
+        background-color: black;
+        margin-left: 11.5vw;
+        bottom: 16.5vh;
+        padding-left: 1vw;
+        padding-top: 17.5vh;
+        z-index: 997;
+    }
+
+    & div#mission-title {
+        position: relative;
+        background-color: var(--gray);
+        border: 3px solid var(--linecolor2);
+        width: 50vw;
+        padding: 0;
+        margin-left: 6.5vw;
+        display: flex;
+        z-index: 998;
+
+        & img#badge {
+            width: 75px;
+            height: 75px;
+        }
+
+        & div#mission-badge {
+            width: 100%;
+            border: 1px solid #c480f7;
+            border-left: 8px solid #c480f7;
+            box-shadow: 0 0 20px rgba(149, 100, 255, 0.445);
+            padding: 8px 0px 5px 10px;
+            margin-bottom: 0;
+            background: linear-gradient(to right, #584786d5, transparent);
+
+            & span#chapter {
+                font-size: 20px;
+            }
+
+            & span#title {
+                font-size: 36px;
+            }
+        }
+    }
+
+    & div.arranged {
+        & h3 { font-size: 32px; }
+        & h6 { 
+            font-size: 20px; 
+            & span { color: #c8a78c; }
+        }
+
+        & h6.requirement {
+            text-wrap: wrap;
+            max-width: 45vw;
+        }
+
+        & div.rewards {
+            display: flex;
+
+            & div[rarity="3"] { background: linear-gradient(to top, var(--3star), rgb(from var(--3star) r g b / 0.5)); }
+            & div[rarity="4"] { background: linear-gradient(to top, var(--4star), rgb(from var(--4star) r g b / 0.5)); }
+            & div[rarity="5"] { background: linear-gradient(to top, var(--5star), rgb(from var(--5star) r g b / 0.5)); }
+                        
+            & div {
+                border: 1px solid var(--gray);
+                height: 12vh;
+                width: 4.5vw;
+                background-size: contain;
+                font-size: 14px;
+                text-align: center;
+                padding: 0;
+                margin-right: 7.5px;
+                clip-path: polygon(0 0, calc(100% - 7.5px) 0, 100% 7.5px, 100% 100%, 0 100%);
+                
+                & div {
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: 90%;
+                    height: 9.5vh;
+                }
+
+                & p {
+                    position: relative;
+                    top: 7.5vh; 
+                    width: 4.5vw;
+                    padding-top: 2.5px;
+                    background-color: var(--gray);
+                    color: white;
+                }
+            }
+        }
+    }
 }
 
 div#screencover {
     position: fixed;
+    font-family: 'Segoe UI Semibold';
     inset: 0;
     background-color: black;
     z-index: 1000;
 
+    button#undo {
+        position: fixed;
+        top: 5vh;
+        left: 1vw;
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        border-radius: 50px;
+        line-height: none;
+        outline: none;
+        border: 3px solid white;
+        background-color: transparent;
+        color: white;
+
+        &:hover {
+            transition: 0.2s;
+            background-color: white;
+            color: black;
+        }
+    }
+
     & p#sadface {
-        font-family: 'Segoe UI';
+        text-align: center;
         width: 60vw;
         font-size: 8vw;
         position: fixed;
@@ -308,7 +471,6 @@ div#screencover {
         color: white;
     }
     & p#error {
-        font-family: 'Segoe UI Semibold';
         width: 60vw;
         text-wrap: wrap;
         text-align: center;
@@ -327,6 +489,22 @@ div#screencover {
         left: 20vw;
         bottom: 30vh;
         gap: 10px;
+    }
+
+    & p.debuginfo {
+        position: fixed;
+        bottom: 1vh;
+        color: white;
+    }
+
+    & p.left { 
+        text-align: left; 
+        left: 1vw;
+    }
+
+    & p.right { 
+        text-align: right; 
+        right: 1vw;
     }
 }
 
